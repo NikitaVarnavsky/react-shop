@@ -1,0 +1,50 @@
+
+.content {
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .card-list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .card:hover {
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+      transform: scale(1.1);
+    }
+    .card {
+      position: relative;
+      text-align: center;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      padding: 15px;
+      margin-bottom: 30px;
+      width: 250px;
+      border-radius: 15px;
+      transition: transform 0.4s;
+      background: #fff;
+
+      img {
+        margin-bottom: 10px;
+        transform: scale(0.8);
+      }
+      h3 {
+        opacity: 0.7;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      .card-price {
+        display: flex;
+      }
+
+      .card-like {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}

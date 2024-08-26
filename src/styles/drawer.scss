@@ -1,0 +1,57 @@
+
+.content-drawer {
+  margin: 0 auto;
+
+  .content-drawer-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+    display: inline-block;
+    text-align: end;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .card-drawer {
+    background-color: #fff;
+    border-radius: 30px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+
+    .card-drawer-title {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      .img-drawer {
+        height: 140px;
+      }
+    }
+
+    .card-drawer-counter {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      gap: 10px;
+      svg {
+        cursor: pointer;
+      }
+    }
+
+    .card-drawer-price {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+}

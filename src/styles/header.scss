@@ -1,0 +1,33 @@
+.header {
+  background: #696969;
+
+  .header-items {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      margin-right: 50px;
+    }
+  }
+
+  .search {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+
+    img {
+      cursor: pointer;
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+}

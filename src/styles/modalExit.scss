@@ -1,0 +1,28 @@
+.modalWindow {
+  position: relative;
+  margin: 0 auto;
+  background: #fff;
+  padding: 50px;
+  border-radius: 30px;
+
+  .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  h2 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .buttonsModalExit {
+    padding: 0 100px;
+    display: flex;
+    gap: 50px;
+  }
+  button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+}

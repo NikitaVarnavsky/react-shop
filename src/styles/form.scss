@@ -1,0 +1,67 @@
+@keyframes identifier {
+  0% {
+    transform: translateY(-10px);
+  }
+  15% {
+    transform: translateY(0px);
+  }
+  35% {
+    transform: translateY(-7.5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(-0px);
+  }
+  90% {
+    transform: translateY(-2.5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  // from {
+  //   transform: translateY(-5px);
+  // }
+  // to {
+  //   transform: translateY(0);
+  // }
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .field {
+    margin-bottom: 15px;
+    input {
+      margin-top: 15px;
+      padding: 25px;
+      width: 300px;
+      border: none;
+      border-radius: 20px;
+    }
+    input:focus {
+      outline: none;
+      animation: identifier 0.5s;
+    }
+  }
+
+  .authForm-button {
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    // background-color: #c0c0c0;
+    margin-bottom: 30px;
+  }
+  .authForm-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+}
